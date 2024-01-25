@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://schemas.api.finra.org/FINRAApiPlatformU4Filing.json",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "filing": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties" : {
+          "metadata" : {
+            "$ref": "https://schemas.api.finra.org/FINRAApiPlatformFilingMetadata.json"
+          },
+          "operations": {
+            "type" : "object",
+            "additionalProperties": false,
+            "properties": {
+              "op": {
+                "type" : "string",
+                "enum": [
+                  "replace",
+                  "add",
+                  "remove"
+                  ]
+              },
+              "path": {
+                "type" : "string"
+              },
+              "value" : {
+                "type" : "string"
+              }
+            }
+          },
+          "filingData" : {
+            "$ref": "https://ramp-schemas.datacollection.finra.org/forms/u4/models/0.0.1/u4.json"
+          }
+        }
+      }
+  
+    }
+  }
