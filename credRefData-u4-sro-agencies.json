@@ -1,0 +1,106 @@
+{
+    "oneOf": [
+        {
+            "const": 1,
+            "title": "FINRA"
+        },
+        {
+            "const": 50006,
+            "title": "NYSE"
+        },
+        {
+            "const": 50001,
+            "title": "NYSE-AMER"
+        },
+        {
+            "const": 50008,
+            "title": "NYSE-ARCA"
+        },
+        {
+            "const": 50004,
+            "title": "NYSE-CHI"
+        },
+        {
+            "const": 50005,
+            "title": "NYSE-NAT"
+        },
+        {
+            "const": 50003,
+            "title": "CBOE"
+        },
+        {
+            "const": 50113,
+            "title": "CBOE C2"
+        },
+        {
+            "const": 50110,
+            "title": "CBOE BYX"
+        },
+        {
+            "const": 50107,
+            "title": "CBOE BZX"
+        },
+        {
+            "const": 50108,
+            "title": "CBOE EDGA"
+        },
+        {
+            "const": 50109,
+            "title": "CBOE EDGX"
+        },
+        {
+            "const": 50102,
+            "title": "NQX"
+        },
+        {
+            "const": 50002,
+            "title": "BX"
+        },
+        {
+            "const": 50098,
+            "title": "ISE"
+        },
+        {
+            "const": 50114,
+            "title": "ISE GEMX"
+        },
+        {
+            "const": 52318,
+            "title": "ISE MRX"
+        },
+        {
+            "const": 50007,
+            "title": "PHLX"
+        },
+        {
+            "const": 52322,
+            "title": "MIAX EMERALD"
+        },
+        {
+            "const": 50112,
+            "title": "MIAX OPTIONS"
+        },
+        {
+            "const": 52321,
+            "title": "MIAX PEARL"
+        },
+        {
+            "const": 50111,
+            "title": "BOX"
+        },
+        {
+            "const": 52317,
+            "title": "IEX"
+        },
+        {
+            "const": 52327,
+            "title": "LTSE"
+        },
+        {
+            "const": 52328,
+            "title": "MEMX"
+        }
+    ],
+    "title": "sro-agencies",
+    "type": "integer"
+}

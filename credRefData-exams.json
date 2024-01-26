@@ -1,0 +1,142 @@
+{
+    "oneOf": [
+        {
+            "const": "SIE",
+            "title": "SIE"
+        },
+        {
+            "const": "S3",
+            "title": "S3"
+        },
+        {
+            "const": "S4",
+            "title": "S4"
+        },
+        {
+            "const": "S6TO",
+            "title": "S6TO"
+        },
+        {
+            "const": "S7TO",
+            "title": "S7TO"
+        },
+        {
+            "const": "S9",
+            "title": "S9"
+        },
+        {
+            "const": "S10",
+            "title": "S10"
+        },
+        {
+            "const": "S14",
+            "title": "S14"
+        },
+        {
+            "const": "S16",
+            "title": "S16"
+        },
+        {
+            "const": "S22TO",
+            "title": "S22TO"
+        },
+        {
+            "const": "S23",
+            "title": "S23"
+        },
+        {
+            "const": "S24",
+            "title": "S24"
+        },
+        {
+            "const": "S26",
+            "title": "S26"
+        },
+        {
+            "const": "S27",
+            "title": "S27"
+        },
+        {
+            "const": "S28",
+            "title": "S28"
+        },
+        {
+            "const": "S30",
+            "title": "S30"
+        },
+        {
+            "const": "S31",
+            "title": "S31"
+        },
+        {
+            "const": "S32",
+            "title": "S32"
+        },
+        {
+            "const": "S34",
+            "title": "S34"
+        },
+        {
+            "const": "S39",
+            "title": "S39"
+        },
+        {
+            "const": "S50",
+            "title": "S50"
+        },
+        {
+            "const": "S51",
+            "title": "S51"
+        },
+        {
+            "const": "S52TO",
+            "title": "S52TO"
+        },
+        {
+            "const": "S53",
+            "title": "S53"
+        },
+        {
+            "const": "S54",
+            "title": "S54"
+        },
+        {
+            "const": "S57TO",
+            "title": "S57TO"
+        },
+        {
+            "const": "S63",
+            "title": "S63"
+        },
+        {
+            "const": "S65",
+            "title": "S65"
+        },
+        {
+            "const": "S66",
+            "title": "S66"
+        },
+        {
+            "const": "S79TO",
+            "title": "S79TO"
+        },
+        {
+            "const": "S82TO",
+            "title": "S82TO"
+        },
+        {
+            "const": "S86",
+            "title": "S86"
+        },
+        {
+            "const": "S87",
+            "title": "S87"
+        },
+        {
+            "const": "S99TO",
+            "title": "S99TO"
+        }
+    ],
+    "title": "Exams",
+    "type": "string"
+}

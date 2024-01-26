@@ -6,9 +6,10 @@ Thanks for the original source at https://github.com/purukaushik/ref-resolver/bl
 
 ## Example code invocation
 
-    install required packages for ref_resolver.py
-    run main.py
+1. install required packages for ref_resolver.py
+2. run main.py
 
-    U4Filing.json is included here and set as start point. 
-    You can change to any other base json schema.
+## FINRA special notes
+- U4Filing.json is included here and set as start point. You can change to any other base json schema.
+- some $ref links need credentials to access. Put a hardcode mapping here. This may change in the future. 
 

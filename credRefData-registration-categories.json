@@ -1,0 +1,262 @@
+{
+    "oneOf": [
+        {
+            "const": "IR",
+            "title": "IR - Investment Company and Variable Contracts Products Rep. (S6TO)"
+        },
+        {
+            "const": "GS",
+            "title": "GS - Full Registration/General Securities Representative (S7TO)"
+        },
+        {
+            "const": "DR",
+            "title": "DR - Direct Participation Program Representative (S22TO)"
+        },
+        {
+            "const": "MR",
+            "title": "MR - Municipal Securities Representative (S52TO)"
+        },
+        {
+            "const": "TR",
+            "title": "TR - Securities Trader (S7)"
+        },
+        {
+            "const": "TD",
+            "title": "TD - Securities Trader (S57TO)"
+        },
+        {
+            "const": "TS",
+            "title": "TS - Trading Supervisor (S7)"
+        },
+        {
+            "const": "IB",
+            "title": "IB - Investment Banking Representative (S79TO)"
+        },
+        {
+            "const": "BM",
+            "title": "BM - Branch Office Manager (S9 and S10)"
+        },
+        {
+            "const": "PR",
+            "title": "PR - Limited Representative - Private Securities Offerings (S82TO)"
+        },
+        {
+            "const": "RS",
+            "title": "RS - Research Analyst (S86 and S87)"
+        },
+        {
+            "const": "OS",
+            "title": "OS - Operations Professional (S99TO)"
+        },
+        {
+            "const": "AR",
+            "title": "AR - Assistant Representative/Order Processing"
+        },
+        {
+            "const": "CD",
+            "title": "CD - Canada-Limited General Securities Registered Representative"
+        },
+        {
+            "const": "CN",
+            "title": "CN - Canada-Limited General Securities Registered Representative"
+        },
+        {
+            "const": "CS",
+            "title": "CS - Corporate Securities Representative"
+        },
+        {
+            "const": "FA",
+            "title": "FA - Foreign Associate"
+        },
+        {
+            "const": "IE",
+            "title": "IE - United Kingdom - Limited General Securities Registered Representative"
+        },
+        {
+            "const": "OR",
+            "title": "OR - Options Representative"
+        },
+        {
+            "const": "RG",
+            "title": "RG - Government Securities Representative"
+        },
+        {
+            "const": "OP",
+            "title": "OP - Registered Options Principal (S4)"
+        },
+        {
+            "const": "SU",
+            "title": "SU - General Securities Sales Supervisor (S9 and S10)"
+        },
+        {
+            "const": "CO",
+            "title": "CO - Compliance Official (S14)"
+        },
+        {
+            "const": "CR",
+            "title": "CR - Compliance Officer (S14)"
+        },
+        {
+            "const": "SA",
+            "title": "SA - Supervisory Analyst (S16)"
+        },
+        {
+            "const": "GP",
+            "title": "GP - General Securities Principal (S24)"
+        },
+        {
+            "const": "RP",
+            "title": "RP - Research Principal (S24)"
+        },
+        {
+            "const": "BP",
+            "title": "BP - Investment Banking Principal (S24)"
+        },
+        {
+            "const": "TP",
+            "title": "TP - Securities Trader Principal (S24)"
+        },
+        {
+            "const": "PO",
+            "title": "PO - Private Securities Offerings Principal (S24)"
+        },
+        {
+            "const": "IP",
+            "title": "IP - Investment Company and Variable Contracts Products Principal (S26)"
+        },
+        {
+            "const": "FN",
+            "title": "FN - Financial and Operations Principal (S27)"
+        },
+        {
+            "const": "ET",
+            "title": "ET - Equity Trader (S55)"
+        },
+        {
+            "const": "FI",
+            "title": "FI - Introducing Broker-Dealer/Financial and Operations Principal (S28)"
+        },
+        {
+            "const": "AM",
+            "title": "AM - Allied Member"
+        },
+        {
+            "const": "DP",
+            "title": "DP - Direct Participation Program Principal (S39)"
+        },
+        {
+            "const": "FP",
+            "title": "FP - Municipal Fund (S51)"
+        },
+        {
+            "const": "MP",
+            "title": "MP - Municipal Securities Principal (S53)"
+        },
+        {
+            "const": "PG",
+            "title": "PG - Government Securities Principal"
+        },
+        {
+            "const": "SM",
+            "title": "SM - Securities Manager"
+        },
+        {
+            "const": "AP",
+            "title": "AP - Approved Person"
+        },
+        {
+            "const": "OF",
+            "title": "OF - Officer"
+        },
+        {
+            "const": "CF",
+            "title": "CF - Compliance Official Specialist"
+        },
+        {
+            "const": "FE",
+            "title": "FE - Floor Employee"
+        },
+        {
+            "const": "LE",
+            "title": "LE - Securities Lending Representative"
+        },
+        {
+            "const": "LS",
+            "title": "LS - Securities Lending Supervisor"
+        },
+        {
+            "const": "PM",
+            "title": "PM - Floor Member Conducting Public Business"
+        },
+        {
+            "const": "ME",
+            "title": "ME - Member Exchange"
+        },
+        {
+            "const": "PC",
+            "title": "PC - Floor Clerk Conducting Public Business"
+        },
+        {
+            "const": "MT",
+            "title": "MT - Market Maker Authorized Trader-Equities"
+        },
+        {
+            "const": "SC",
+            "title": "SC - Specialist Clerk (S21)"
+        },
+        {
+            "const": "OM",
+            "title": "OM - Options Member (S57TO)"
+        },
+        {
+            "const": "TA",
+            "title": "TA - Trading Assistant (S25)"
+        },
+        {
+            "const": "CT",
+            "title": "CT - Securities Trader Compliance Officer (S14)"
+        },
+        {
+            "const": "FL",
+            "title": "FL - Floor Clerk - Equities (S19)"
+        },
+        {
+            "const": "IF",
+            "title": "IF - In-Firm Delivery Proctor"
+        },
+        {
+            "const": "MM",
+            "title": "MM - Market Maker Authorized Trader - Options (S57)"
+        },
+        {
+            "const": "FB",
+            "title": "FB - Floor Broker (S57)"
+        },
+        {
+            "const": "MB",
+            "title": "MB - Market Maker acting as Floor Broker"
+        },
+        {
+            "const": "OT",
+            "title": "OT - Authorized Trader (S7)"
+        },
+        {
+            "const": "AF",
+            "title": "AF - Floor Broker - Options (S57)"
+        },
+        {
+            "const": "AO",
+            "title": "AO - Market Maker - Options (S57)"
+        },
+        {
+            "const": "AC",
+            "title": "AC - Floor Clerk - Options"
+        },
+        {
+            "const": "PT",
+            "title": "PT - Proprietary Trader (S56)"
+        }
+    ],
+    "title": "registration-categories",
+    "type": "string"
+}

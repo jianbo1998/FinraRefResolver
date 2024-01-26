@@ -1,0 +1,306 @@
+{
+    "oneOf": [
+        {
+            "const": "SIE",
+            "title": "SIE"
+        },
+        {
+            "const": "S3",
+            "title": "S3"
+        },
+        {
+            "const": "S4",
+            "title": "S4"
+        },
+        {
+            "const": "S5",
+            "title": "S5"
+        },
+        {
+            "const": "S6",
+            "title": "S6"
+        },
+        {
+            "const": "S6TO",
+            "title": "S6TO"
+        },
+        {
+            "const": "S7",
+            "title": "S7"
+        },
+        {
+            "const": "S7TO",
+            "title": "S7TO"
+        },
+        {
+            "const": "S7A",
+            "title": "S7A"
+        },
+        {
+            "const": "S7B",
+            "title": "S7B"
+        },
+        {
+            "const": "S9",
+            "title": "S9"
+        },
+        {
+            "const": "S10",
+            "title": "S10"
+        },
+        {
+            "const": "S11",
+            "title": "S11"
+        },
+        {
+            "const": "S12",
+            "title": "S12"
+        },
+        {
+            "const": "S14",
+            "title": "S14"
+        },
+        {
+            "const": "S14A",
+            "title": "S14A"
+        },
+        {
+            "const": "S15",
+            "title": "S15"
+        },
+        {
+            "const": "S16",
+            "title": "S16"
+        },
+        {
+            "const": "S17",
+            "title": "S17"
+        },
+        {
+            "const": "S21",
+            "title": "S21"
+        },
+        {
+            "const": "S22",
+            "title": "S22"
+        },
+        {
+            "const": "S22TO",
+            "title": "S22TO"
+        },
+        {
+            "const": "S23",
+            "title": "S23"
+        },
+        {
+            "const": "S24",
+            "title": "S24"
+        },
+        {
+            "const": "S19",
+            "title": "S19"
+        },
+        {
+            "const": "S25",
+            "title": "S25"
+        },
+        {
+            "const": "S26",
+            "title": "S26"
+        },
+        {
+            "const": "S27",
+            "title": "S27"
+        },
+        {
+            "const": "S28",
+            "title": "S28"
+        },
+        {
+            "const": "S30",
+            "title": "S30"
+        },
+        {
+            "const": "S31",
+            "title": "S31"
+        },
+        {
+            "const": "S32",
+            "title": "S32"
+        },
+        {
+            "const": "S33",
+            "title": "S33"
+        },
+        {
+            "const": "S34",
+            "title": "S34"
+        },
+        {
+            "const": "S37",
+            "title": "S37"
+        },
+        {
+            "const": "S38",
+            "title": "S38"
+        },
+        {
+            "const": "S39",
+            "title": "S39"
+        },
+        {
+            "const": "S42",
+            "title": "S42"
+        },
+        {
+            "const": "G43",
+            "title": "G43"
+        },
+        {
+            "const": "S43",
+            "title": "S43"
+        },
+        {
+            "const": "S44",
+            "title": "S44"
+        },
+        {
+            "const": "S45",
+            "title": "S45"
+        },
+        {
+            "const": "S46",
+            "title": "S46"
+        },
+        {
+            "const": "S47",
+            "title": "S47"
+        },
+        {
+            "const": "S48",
+            "title": "S48"
+        },
+        {
+            "const": "S49",
+            "title": "S49"
+        },
+        {
+            "const": "G51",
+            "title": "G51"
+        },
+        {
+            "const": "S50",
+            "title": "S50"
+        },
+        {
+            "const": "S51",
+            "title": "S51"
+        },
+        {
+            "const": "S52",
+            "title": "S52"
+        },
+        {
+            "const": "S52TO",
+            "title": "S52TO"
+        },
+        {
+            "const": "S53",
+            "title": "S53"
+        },
+        {
+            "const": "S54",
+            "title": "S54"
+        },
+        {
+            "const": "S55",
+            "title": "S55"
+        },
+        {
+            "const": "S56",
+            "title": "S56"
+        },
+        {
+            "const": "S57",
+            "title": "S57"
+        },
+        {
+            "const": "S57TO",
+            "title": "S57TO"
+        },
+        {
+            "const": "S62",
+            "title": "S62"
+        },
+        {
+            "const": "S63",
+            "title": "S63"
+        },
+        {
+            "const": "S65",
+            "title": "S65"
+        },
+        {
+            "const": "S66",
+            "title": "S66"
+        },
+        {
+            "const": "S72",
+            "title": "S72"
+        },
+        {
+            "const": "S79",
+            "title": "S79"
+        },
+        {
+            "const": "S79TO",
+            "title": "S79TO"
+        },
+        {
+            "const": "S82",
+            "title": "S82"
+        },
+        {
+            "const": "S82TO",
+            "title": "S82TO"
+        },
+        {
+            "const": "S86",
+            "title": "S86"
+        },
+        {
+            "const": "S87",
+            "title": "S87"
+        },
+        {
+            "const": "S99",
+            "title": "S99"
+        },
+        {
+            "const": "S99TO",
+            "title": "S99TO"
+        },
+        {
+            "const": "S101",
+            "title": "S101"
+        },
+        {
+            "const": "S106",
+            "title": "S106"
+        },
+        {
+            "const": "S201",
+            "title": "S201"
+        },
+        {
+            "const": "S501",
+            "title": "S501"
+        },
+        {
+            "const": "S901",
+            "title": "S901"
+        }
+    ],
+    "title": "Previous Taken Exams",
+    "type": "string"
+}

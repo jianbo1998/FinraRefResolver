@@ -1,0 +1,218 @@
+{
+    "oneOf": [
+        {
+            "const": 50009,
+            "title": "Alabama"
+        },
+        {
+            "const": 50010,
+            "title": "Alaska"
+        },
+        {
+            "const": 50011,
+            "title": "Arizona"
+        },
+        {
+            "const": 50012,
+            "title": "Arkansas"
+        },
+        {
+            "const": 50013,
+            "title": "California"
+        },
+        {
+            "const": 50014,
+            "title": "Colorado"
+        },
+        {
+            "const": 50015,
+            "title": "Connecticut"
+        },
+        {
+            "const": 50016,
+            "title": "Delaware"
+        },
+        {
+            "const": 50017,
+            "title": "District of Columbia"
+        },
+        {
+            "const": 50018,
+            "title": "Florida"
+        },
+        {
+            "const": 50019,
+            "title": "Georgia"
+        },
+        {
+            "const": 50020,
+            "title": "Hawaii"
+        },
+        {
+            "const": 50021,
+            "title": "Idaho"
+        },
+        {
+            "const": 50022,
+            "title": "Illinois"
+        },
+        {
+            "const": 50023,
+            "title": "Indiana"
+        },
+        {
+            "const": 50024,
+            "title": "Iowa"
+        },
+        {
+            "const": 50025,
+            "title": "Kansas"
+        },
+        {
+            "const": 50026,
+            "title": "Kentucky"
+        },
+        {
+            "const": 50027,
+            "title": "Louisiana"
+        },
+        {
+            "const": 50028,
+            "title": "Maine"
+        },
+        {
+            "const": 50029,
+            "title": "Maryland"
+        },
+        {
+            "const": 50030,
+            "title": "Massachusetts"
+        },
+        {
+            "const": 50031,
+            "title": "Michigan"
+        },
+        {
+            "const": 50032,
+            "title": "Minnesota"
+        },
+        {
+            "const": 50033,
+            "title": "Mississippi"
+        },
+        {
+            "const": 50034,
+            "title": "Missouri"
+        },
+        {
+            "const": 50035,
+            "title": "Montana"
+        },
+        {
+            "const": 50036,
+            "title": "Nebraska"
+        },
+        {
+            "const": 50037,
+            "title": "Nevada"
+        },
+        {
+            "const": 50038,
+            "title": "New Hampshire"
+        },
+        {
+            "const": 50039,
+            "title": "New Jersey"
+        },
+        {
+            "const": 50040,
+            "title": "New Mexico"
+        },
+        {
+            "const": 50041,
+            "title": "New York"
+        },
+        {
+            "const": 50042,
+            "title": "North Carolina"
+        },
+        {
+            "const": 50043,
+            "title": "North Dakota"
+        },
+        {
+            "const": 50044,
+            "title": "Ohio"
+        },
+        {
+            "const": 50045,
+            "title": "Oklahoma"
+        },
+        {
+            "const": 50046,
+            "title": "Oregon"
+        },
+        {
+            "const": 50047,
+            "title": "Pennsylvania"
+        },
+        {
+            "const": 50048,
+            "title": "Puerto Rico"
+        },
+        {
+            "const": 50049,
+            "title": "Rhode Island"
+        },
+        {
+            "const": 50050,
+            "title": "South Carolina"
+        },
+        {
+            "const": 50051,
+            "title": "South Dakota"
+        },
+        {
+            "const": 50052,
+            "title": "Tennessee"
+        },
+        {
+            "const": 50053,
+            "title": "Texas"
+        },
+        {
+            "const": 50054,
+            "title": "Utah"
+        },
+        {
+            "const": 50055,
+            "title": "Vermont"
+        },
+        {
+            "const": 52284,
+            "title": "Virgin Islands"
+        },
+        {
+            "const": 50056,
+            "title": "Virginia"
+        },
+        {
+            "const": 50057,
+            "title": "Washington"
+        },
+        {
+            "const": 50058,
+            "title": "West Virginia"
+        },
+        {
+            "const": 50059,
+            "title": "Wisconsin"
+        },
+        {
+            "const": 50060,
+            "title": "Wyoming"
+        }
+    ],
+    "title": "state-regulators",
+    "type": "integer"
+}

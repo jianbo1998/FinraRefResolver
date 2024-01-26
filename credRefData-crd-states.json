@@ -1,0 +1,226 @@
+{
+    "oneOf": [
+        {
+            "const": "AL",
+            "title": "Alabama"
+        },
+        {
+            "const": "AK",
+            "title": "Alaska"
+        },
+        {
+            "const": "AZ",
+            "title": "Arizona"
+        },
+        {
+            "const": "AR",
+            "title": "Arkansas"
+        },
+        {
+            "const": "CA",
+            "title": "California"
+        },
+        {
+            "const": "CO",
+            "title": "Colorado"
+        },
+        {
+            "const": "CT",
+            "title": "Connecticut"
+        },
+        {
+            "const": "DE",
+            "title": "Delaware"
+        },
+        {
+            "const": "DC",
+            "title": "District of Columbia"
+        },
+        {
+            "const": "FL",
+            "title": "Florida"
+        },
+        {
+            "const": "GA",
+            "title": "Georgia"
+        },
+        {
+            "const": "HI",
+            "title": "Hawaii"
+        },
+        {
+            "const": "ID",
+            "title": "Idaho"
+        },
+        {
+            "const": "IL",
+            "title": "Illinois"
+        },
+        {
+            "const": "IN",
+            "title": "Indiana"
+        },
+        {
+            "const": "IA",
+            "title": "Iowa"
+        },
+        {
+            "const": "KS",
+            "title": "Kansas"
+        },
+        {
+            "const": "KY",
+            "title": "Kentucky"
+        },
+        {
+            "const": "LA",
+            "title": "Louisiana"
+        },
+        {
+            "const": "ME",
+            "title": "Maine"
+        },
+        {
+            "const": "MD",
+            "title": "Maryland"
+        },
+        {
+            "const": "MA",
+            "title": "Massachusetts"
+        },
+        {
+            "const": "MI",
+            "title": "Michigan"
+        },
+        {
+            "const": "MN",
+            "title": "Minnesota"
+        },
+        {
+            "const": "MS",
+            "title": "Mississippi"
+        },
+        {
+            "const": "MO",
+            "title": "Missouri"
+        },
+        {
+            "const": "MT",
+            "title": "Montana"
+        },
+        {
+            "const": "XX",
+            "title": "N/A"
+        },
+        {
+            "const": "NE",
+            "title": "Nebraska"
+        },
+        {
+            "const": "NV",
+            "title": "Nevada"
+        },
+        {
+            "const": "NH",
+            "title": "New Hampshire"
+        },
+        {
+            "const": "NJ",
+            "title": "New Jersey"
+        },
+        {
+            "const": "NM",
+            "title": "New Mexico"
+        },
+        {
+            "const": "NY",
+            "title": "New York"
+        },
+        {
+            "const": "NC",
+            "title": "North Carolina"
+        },
+        {
+            "const": "ND",
+            "title": "North Dakota"
+        },
+        {
+            "const": "NL",
+            "title": "Not on List"
+        },
+        {
+            "const": "OH",
+            "title": "Ohio"
+        },
+        {
+            "const": "OK",
+            "title": "Oklahoma"
+        },
+        {
+            "const": "OR",
+            "title": "Oregon"
+        },
+        {
+            "const": "PA",
+            "title": "Pennsylvania"
+        },
+        {
+            "const": "PR",
+            "title": "Puerto Rico"
+        },
+        {
+            "const": "RI",
+            "title": "Rhode Island"
+        },
+        {
+            "const": "SC",
+            "title": "South Carolina"
+        },
+        {
+            "const": "SD",
+            "title": "South Dakota"
+        },
+        {
+            "const": "TN",
+            "title": "Tennessee"
+        },
+        {
+            "const": "TX",
+            "title": "Texas"
+        },
+        {
+            "const": "UT",
+            "title": "Utah"
+        },
+        {
+            "const": "VT",
+            "title": "Vermont"
+        },
+        {
+            "const": "VI",
+            "title": "Virgin Islands"
+        },
+        {
+            "const": "VA",
+            "title": "Virginia"
+        },
+        {
+            "const": "WA",
+            "title": "Washington"
+        },
+        {
+            "const": "WV",
+            "title": "West Virginia"
+        },
+        {
+            "const": "WI",
+            "title": "Wisconsin"
+        },
+        {
+            "const": "WY",
+            "title": "Wyoming"
+        }
+    ],
+    "title": "states",
+    "type": "string"
+}
