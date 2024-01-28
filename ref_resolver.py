@@ -11,7 +11,6 @@ from os.path import isfile
 import jsonpath_rw
 import requests
 
-
 cache = {}
 
 
@@ -58,50 +57,51 @@ class RefResolver:
                                 print(value)
                                 # map those link need credentials
                                 if (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=crd-states"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred"
+                                           "-reference-data/0.0.1?referenceKey=crd-states"
                                 ):
                                     cur_json = json.load(
                                         open("credRefData-crd-states.json")
                                     )
                                 elif (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=countries"
-                                    or value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=countries&active=true"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=countries"
+                                        or value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=countries&active=true"
                                 ):
                                     cur_json = json.load(
                                         open("credRefData-countries.json")
                                     )
                                 elif (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=state-regulators"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=state-regulators"
                                 ):
                                     cur_json = json.load(
                                         open("credRefData-state-regulators.json")
                                     )
                                 elif (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=exams&active=true&availableInProctor=true"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=exams&active=true&availableInProctor=true"
                                 ):
                                     cur_json = json.load(open("credREfData-exams.json"))
                                 elif (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=exams&previouslyQualified=true"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=exams&previouslyQualified=true"
                                 ):
                                     cur_json = json.load(
                                         open("credRefData-pre-exams.json")
                                     )
                                 elif (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=registration-categories"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=registration-categories"
                                 ):
                                     cur_json = json.load(
                                         open("credRefData-registration-categories.json")
                                     )
                                 elif (
-                                    value
-                                    == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=u4-sro-agencies"
+                                        value
+                                        == "https://datacollection-api.finra.org/rest/extension-invocations/cred-ind/cred-reference-data/0.0.1?referenceKey=u4-sro-agencies"
                                 ):
                                     cur_json = json.load(
                                         open("credRefData-u4-sro-agencies.json")
@@ -131,7 +131,7 @@ class RefResolver:
                             try:
                                 cur_json = cache[
                                     self.url_fragments.netloc + self.url_fragments.path
-                                ]
+                                    ]
                             except:
                                 cur_json = {}
 
