@@ -392,20 +392,69 @@ from ref_resolver import RefResolver
 # with open("dualRegistration_final.json", "w") as outfile:
 #     json.dump(json_obj, outfile)
 
-### common-data-definitions: https://ramp-schemas.datacollection.finra.org/forms/u4/models/0.0.1/common-data-definitions.json ###
+# ### common-data-definitions: https://ramp-schemas.datacollection.finra.org/forms/u4/models/0.0.1/common-data-definitions.json ###
+# # grab python dict from url
+# json_obj = requests.get("https://ramp-schemas.datacollection.finra.org/forms/u4/models/0.0.1/common-data-definitions.json").json()
+
+# # call to API resolve method
+# RefResolver(json_obj['$id']).resolve(json_obj)
+
+# # dict is now inlined with all $ref removed
+
+# # save into a new file
+# with open("commonDataDefinitions_final.json", "w") as outfile:
+#     json.dump(json_obj, outfile)
+
+# ### U5: https://ramp-schemas.datacollection.finra.org/forms/u5/models/0.0.1/u5.json ###
+# # grab python dict from url
+# json_obj = requests.get("https://ramp-schemas.datacollection.finra.org/forms/u5/models/0.0.1/u5.json").json()
+
+# # call to API resolve method
+# RefResolver(json_obj['$id']).resolve(json_obj)
+
+# # dict is now inlined with all $ref removed
+
+# # save into a new file
+# with open("U5Filing_final.json", "w") as outfile:
+#     json.dump(json_obj, outfile)
+
+
+# ### branch filing: https://ramp-schemas.datacollection.finra.org/forms/br/models/0.0.1/br.json ###
+# # grab python dict from url
+# json_obj = requests.get("https://ramp-schemas.datacollection.finra.org/forms/br/models/0.0.1/br.json").json()
+
+# # call to API resolve method
+# RefResolver(json_obj['$id']).resolve(json_obj)
+
+# # dict is now inlined with all $ref removed
+
+# # save into a new file
+# with open("BRFiling_final.json", "w") as outfile:
+#     json.dump(json_obj, outfile)
+
+
+# ### Composite Individual: https://static.rampweb.finra.org/schemas/individualcomposite.json ###
 # grab python dict from url
-json_obj = requests.get("https://ramp-schemas.datacollection.finra.org/forms/u4/models/0.0.1/common-data-definitions.json").json()
+json_obj = requests.get("https://static.rampweb.finra.org/schemas/individualcomposite.json").json()
 
 # call to API resolve method
-RefResolver(json_obj['$id']).resolve(json_obj)
+RefResolver(None).resolve(json_obj)
 
 # dict is now inlined with all $ref removed
 
 # save into a new file
-with open("commonDataDefinitions_final.json", "w") as outfile:
+with open("Composite_Individual_final.json", "w") as outfile:
     json.dump(json_obj, outfile)
 
+# ### Composite Branch: https://static.rampweb.finra.org/schemas/branchcomposite.json ###
+# # grab python dict from url
+# json_obj = requests.get("https://static.rampweb.finra.org/schemas/branchcomposite.json").json()
 
+# # call to API resolve method
+# RefResolver(None).resolve(json_obj)
 
+# # dict is now inlined with all $ref removed
 
-
+# # save into a new file
+# with open("Composite_Branch_final.json", "w") as outfile:
+#     json.dump(json_obj, outfile)
